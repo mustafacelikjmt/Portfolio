@@ -53,6 +53,11 @@ nav.scroll {
     border-bottom: 1px solid #000;
 }
 
+.nav-links .active {
+    color: #4CAF50;
+    border-bottom: 1px solid white;
+}
+
 .nav-links {
     width: 70%;
 }
@@ -112,7 +117,7 @@ footer .socials img {
     border: 1px solid white;
     padding: 0px;
 }
-  
+
 .container {
     display: flex;
     justify-content: center;
