@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Layout.css">
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar scroll">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div class="nav-links">
+                <a class="nav-links scroll" href="index.html">Home</a>
+                <a class="nav-links scroll" href="Projects.html">Projects</a>
+                <a class="nav-links scroll" href="about.html">About</a>
+                <a class="nav-links scroll active" href="Contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="contact-container">
+            <h1>Contact</h1>
+            <form action="submit-form.php" method="post">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+        <div class="contact-info-container">
+            <div class="contact-info">
+                <img src="img/geo-alt.svg" alt="Address Icon">
+                <h3>ADDRESS</h3>
+                <p>Bebek Cd.,</p>
+                <p>İstanbul Beşiktaş 34714, TR</p>
+            </div>
+            <div class="divider"></div>
+            <div class="contact-info">
+                <img src="img/phone.svg" alt="Phone Icon">
+                <h3>PHONE NUMBER</h3>
+                <p>+90 551 567 51 25</p>
+            </div>
+            <div class="divider"></div>
+            <div class="contact-info">
+                <img src="img/envelope.svg" alt="Email Icon">
+                <h3>EMAIL</h3>
+                <p>info@gmail.com</p>
+            </div>
+        </div>
+
+        <iframe class="maps" frameborder="0" title="maps"
+            src="https://www.google.com/maps?q=41.181489692117694, 27.817875689676885&output=embed">
+        </iframe>
+    </main>
+
+    <footer>
+        <div class="socials container">
+            <a href="https://www.facebook.com/" title="facebook" target="_blank" rel='noopener'><img
+                    src="img/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/" title="instagram" target="_blank" rel='noopener'><img
+                    src="img/instagram.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/" title="linkedin" target="_blank" rel='noopener'><img
+                    src="img/linkedin.svg" alt="linkedin"></a>
+        </div>
+        <p>Copyright ©2024, All rights reserved. <a href="Contact.html">Contact</a></p>
+    </footer>
+
+</body>
+
+</html>

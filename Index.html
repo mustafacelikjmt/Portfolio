@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_Layout.css">
+    <link rel="stylesheet" href="Index.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div class="nav-links">
+                <a class="nav-links active" href="index.html">Home</a>
+                <a class="nav-links" href="Projects.html">Projects</a>
+                <a class="nav-links" href="about.html">About</a>
+                <a class="nav-links" href="Contact.html">Contact</a>
+            </div>
+        </nav>
+        <div class="banner">
+            <img src="img/aurora.jpg" alt="Banner Resmi">
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="info">
+                <h1>Hello, I'm Mustafa, <br>Software Developer</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, voluptates facilis eum obcaecati
+                    voluptatem distinctio, tenetur debitis porro ipsum ullam nulla corporis dignissimos repellendus
+                    impedit assumenda! Necessitatibus eum quo fugit exercitationem veniam ducimus quidem a! Architecto
+                    exercitationem aperiam suscipit deserunt modi impedit maxime eos nihil autem quibusdam molestiae aut
+                    nisi soluta voluptate nesciunt illum repellendus, ipsam labore sequi maiores amet in dicta tempora
+                    assumenda? Officia aut reiciendis perferendis odio dolore.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto pariatur aut quam quidem nihil velit
+                    omnis adipisci consectetur necessitatibus, consequuntur illo quas eum distinctio maxime tempore
+                    minus! Unde voluptatem repellat illo quo placeat amet? Doloribus autem temporibus facere sit quod,
+                    ipsum optio odio nihil hic dolores sint, ducimus iure deleniti reprehenderit explicabo voluptate
+                    culpa, accusantium debitis eveniet! Voluptas exercitationem architecto, molestiae adipisci nobis ad
+                    mollitia voluptates sunt perspiciatis at tempora nulla, repellendus debitis velit, temporibus
+                    excepturi nam porro quasi eligendi natus ab distinctio! Rerum impedit quae sed esse. Architecto,
+                    non!</p>
+                <p>Lorem ipsum
+                    dolor, sit amet consectetur adipisicing elit. Illo non sint perspiciatis eos, est nihil!
+                    Laboriosam nesciunt consequuntur, tempora ipsam, laudantium quisquam dicta voluptates minus
+                    accusamus id odit aliquam perspiciatis.</p>
+                <button>Download Resume</button>
+            </div>
+            <img src="img/profil.jpg" alt="">
+        </div>
+
+        <div class="recent">
+            <div class="header">
+                <h4>New Projects</h4>
+                <a href="Projects.html" alt=""><button>View all</button></a>
+            </div>
+
+            <div class="posts">
+                <div class="posts-item">
+                    <h3>Making a layout system from </h3>
+                    <div class="info">
+                        <h5>12 jan 2024</h5>
+                        <h5></h5>
+                        <h5>Design , Layout</h5>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="posts-item">
+                    <h3>Making a layout system from </h3>
+                    <div class="info">
+                        <h5>12 jan 2024</h5>
+                        <h5></h5>
+                        <h5>Design , Layout</h5>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="separator">
+            <h4>Featured Projects</h4>
+        </div>
+
+        <div class="featured">
+            <div class="item">
+                <img src="img/1.jpg" title="Screenshots" alt="">
+                <div class="details">
+                    <h3>Capture Screenshots</h3>
+                    <div class="item-info">
+                        <div class="year-badge">2023</div>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt?</p>
+                </div>
+            </div>
+            <hr>
+            <div class="item">
+                <img src="img/2.jpg" title="Screenshots" alt="">
+                <div class="details">
+                    <h3>Capture Screenshots</h3>
+                    <div class="item-info">
+                        <div class="year-badge">2023</div>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt?</p>
+                </div>
+            </div>
+            <hr>
+            <div class="item">
+                <img src="img/3.jpg" title="Screenshots" alt="">
+                <div class="details">
+                    <h3>Capture Screenshots</h3>
+                    <div class="item-info">
+                        <div class="year-badge">2023</div>
+                        <h4>JavaScript</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt?</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="socials container">
+            <a href="https://www.facebook.com/" title="facebook" target="_blank" rel='noopener'><img
+                    src="img/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/" title="instagram" target="_blank" rel='noopener'><img
+                    src="img/instagram.png" alt="instagram"></a>
+            <a href="https://www.linkedin.com/" title="linkedin" target="_blank" rel='noopener'><img
+                    src="img/linkedin.svg" alt="linkedin"></a>
+        </div>
+        <p>Copyright ©2024, All rights reserved. <a href="Contact.html">Contact</a></p>
+    </footer>
+
+</body>
+
+</html>
+
+<script>
+    window.addEventListener('scroll', function () {
+        var navbar = document.getElementsByClassName('navbar')[0]; //getElementsByClassName bir HTMLCollection döndürür, dönen koleksiyonun ilk elemanı için [0] gerekli.
+        var navLinks = document.querySelectorAll('a.nav-links');
+        for (var i = 0; i < 4; i++) {
+            if (window.scrollY > 0) {
+                navbar.classList.add('scroll');
+                navLinks[i].classList.add('scroll');
+            } else {
+                navbar.classList.remove('scroll');
+                navLinks[i].classList.remove('scroll');
+            }
+        }
+    });
+</script>

@@ -1,0 +1,35 @@
+.page-title {
+    padding: 0px 234px 20px;
+    width: 0%;
+}
+.content .container{
+    background-color: #a4cfff;
+    padding: 30px;
+    display: flex;  
+    align-items: center;
+    gap: 30px;
+    width: 75%;
+    border-radius: 20px;
+    margin-bottom: 4%;
+}
+
+.content .container img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.content .container h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.content .container .about>p{
+    text-align: justify;
+}
+
+.content .container .about .email{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 14px;
+}

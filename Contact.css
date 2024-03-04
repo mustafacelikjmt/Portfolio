@@ -1,0 +1,99 @@
+.maps {
+    width: 1000px;
+    height: 450px;
+    border: 0;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+header {
+    padding: 0px 145px;
+    padding-bottom: 2.6%;
+}
+
+nav {
+    position: sticky;
+    width: 81.5%;
+}
+
+.contact-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 40px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.divider {
+    height: 100px;
+    width: 1px;
+    background-color: #ccc;
+}
+
+.contact-info {
+    flex-basis: 30%;
+    margin-left: 25px;
+}
+
+.contact-info img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.contact-info h3 {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.form-group button {
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 16%;
+    padding: 10px;
+    background-color: #000;
+    margin-left: 42%;
+    margin-right: 42%;
+}
+
+.form-group button:hover {
+    background-color: #555;
+}
